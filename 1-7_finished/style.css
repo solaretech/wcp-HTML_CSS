@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.contents-box{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.tiles-row{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+.tiles-row, .color-tiles:last-child{
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.text-list{
+	padding: 20px;
+}
+
+.text-list:nth-child(odd){
+	background-color: #dfdfdf;
+}
+
+.color-tiles{
+	height: 200px;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	float: left;
+	background-color: yellow;
+}
+
+.oranging{
+	background-color: orange;
+}
